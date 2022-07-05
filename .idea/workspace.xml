@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="Add communication">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" afterDir="false" />
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="Add Controller">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Detector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657011867355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Controller">
+      <created>1657017861105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657017861105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +133,7 @@
     <MESSAGE value="Init repo" />
     <MESSAGE value="Add base" />
     <MESSAGE value="Add communication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add communication" />
+    <MESSAGE value="Add Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Controller" />
   </component>
 </project>

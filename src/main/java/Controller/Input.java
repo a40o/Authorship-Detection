@@ -1,6 +1,6 @@
 package Controller;
 
 public interface Input {
-  void getStringInput();
-  void getNumInput();
+  String getStringInput();
+  int getNumInput();
 }

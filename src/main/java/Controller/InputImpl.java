@@ -6,12 +6,12 @@ public class InputImpl implements Input{
 
   Scanner scan = new Scanner(System.in);
   @Override
-  public void getStringInput() {
-    int amount = scan.nextInt();
+  public String getStringInput() {
+    return scan.nextLine();
   }
 
   @Override
-  public void getNumInput() {
-    String input = scan.nextLine();
+  public int getNumInput() {
+    return scan.nextInt();
   }
 }

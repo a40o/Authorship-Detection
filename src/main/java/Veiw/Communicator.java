@@ -10,7 +10,6 @@ public class Communicator implements Communication{
   @Override
   public void startupMessage() {
     System.out.println("Welcome");
-    getAmountOfTexts();
   }
 
   @Override
@@ -18,6 +17,12 @@ public class Communicator implements Communication{
     System.out.print("Please type number of texts: ");
     input.getNumInput();
     //TODO return to model
+  }
+
+  @Override
+  public void getTextInput() {
+    System.out.println("Type text: ");
+    input.getStringInput();
   }
 
   @Override

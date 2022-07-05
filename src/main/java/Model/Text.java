@@ -11,30 +11,36 @@ public class Text {
 
   public Text() {
     setValue(scanner.nextLine());
+    //getStrippedText(value);
+    getNumberOfAllWords(value);
   }
 
-//  public String getAverageLengthOfWords() {
-//    int allWords = 0;
-//    double sumOfAllWords = 0;
-//    String[] words = getStrippedText1(text);
-//    for (String word : words) {
-//      double wordLength = word.length();
-//      sumOfAllWords += wordLength;
-//      allWords++;
-//    }
-//
-//    double averageWordLength = 0;
-//    if (allWords > 0) {
-//      averageWordLength = sumOfAllWords / allWords;
-//    }
-//
-//    DecimalFormat df = new DecimalFormat("#.###");
-//    return df.format(averageWordLength);
-//    return averageLengthOfWords;
-//  }
+  public static String[] getStrippedText(String text) {
+
+    String strippedText = getPunctuationStrippedText(text);
+    return strippedText.split(" ");
+  }
+
+  public static String getPunctuationStrippedText(String text) {
+
+    return text.replaceAll("\\p{Punct}", "");
+  }
 
   public void setAverageLengthOfWords(String averageLengthOfWords) {
     this.averageLengthOfWords = averageLengthOfWords;
+  }
+
+  public static int getNumberOfAllWords(String text) {
+
+    int allWords = 0;
+    String[] words = getStrippedText(text);
+
+    for (int i = 0; i <= words.length; i++) {
+
+      allWords++;
+    }
+
+    return allWords;
   }
 
   public String getValue() {

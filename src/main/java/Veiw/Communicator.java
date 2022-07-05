@@ -13,10 +13,10 @@ public class Communicator implements Communication{
   }
 
   @Override
-  public void getAmountOfTexts() {
+  public int getAmountOfTexts() {
     System.out.print("Please type number of texts: ");
-    input.getNumInput();
     //TODO return to model
+    return input.getNumInput();
   }
 
   @Override

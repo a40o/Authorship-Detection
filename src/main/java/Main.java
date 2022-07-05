@@ -4,7 +4,6 @@ import Veiw.Communicator;
 public class Main {
 
   public static void main(String[] args) {
-    Detector.startApp();
-    Detector.createText(3);
+    Detector detector = new Detector();
   }
 }

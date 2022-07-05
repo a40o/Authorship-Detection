@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="Add Controller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Detector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Text.java" afterDir="false" />
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="remove commit errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Detector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" afterDir="false" />
     </list>
@@ -134,6 +132,7 @@
     <MESSAGE value="Add base" />
     <MESSAGE value="Add communication" />
     <MESSAGE value="Add Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Controller" />
+    <MESSAGE value="remove commit errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove commit errors" />
   </component>
 </project>

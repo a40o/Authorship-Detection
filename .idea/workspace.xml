@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="Add base">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" afterDir="false" />
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="Add communication">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657009527415</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add communication">
+      <created>1657011867355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657011867355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init repo" />
     <MESSAGE value="Add base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add base" />
+    <MESSAGE value="Add communication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add communication" />
   </component>
 </project>

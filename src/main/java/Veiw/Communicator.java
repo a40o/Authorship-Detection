@@ -1,9 +1,11 @@
 package Veiw;
 
+import Controller.InputImpl;
 import java.util.Scanner;
 
 public class Communicator implements Communication{
   Scanner scan = new Scanner(System.in);
+  InputImpl input = new InputImpl();
 
   @Override
   public void startupMessage() {
@@ -14,7 +16,7 @@ public class Communicator implements Communication{
   @Override
   public void getAmountOfTexts() {
     System.out.print("Please type number of texts: ");
-    int numberOfTexts = scan.nextInt();
+    input.getNumInput();
     //TODO return to model
   }
 

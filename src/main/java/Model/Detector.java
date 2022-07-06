@@ -9,7 +9,6 @@ public class Detector {
   static Communicator communicator = new Communicator();
   public Detector() {
     startApp();
-    //TODO get text amount from input
     createText(communicator.getAmountOfTexts());
   }
 
@@ -20,12 +19,13 @@ public class Detector {
   public static void createText(int numberOfTexts){
     Text[] texts = new  Text[numberOfTexts];
     for (int i = 0; i < texts.length; i++) {
+      communicator.getTextInput();
       texts[i] = new Text();
     }
 
-    for (int i = 0; i < texts.length; i++) {
-      System.out.println(texts[i].getValue());
-      System.out.println(texts[i].getNumberOfWords());
+    for (Text text : texts) {
+      System.out.println(text.getValue());
+      System.out.println(text.getNumberOfWords());
     }
   }
 }

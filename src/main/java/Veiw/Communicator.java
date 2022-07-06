@@ -15,7 +15,6 @@ public class Communicator implements Communication{
   @Override
   public int getAmountOfTexts() {
     System.out.print("Please type number of texts: ");
-    //TODO return to model
     return input.getNumInput();
   }
 

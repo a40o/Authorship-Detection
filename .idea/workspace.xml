@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="remove commit errors">
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="parse the input to the model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Detector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657017861105</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="parse the input to the model">
+      <created>1657031373701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031373701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +136,7 @@
     <MESSAGE value="Add communication" />
     <MESSAGE value="Add Controller" />
     <MESSAGE value="remove commit errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove commit errors" />
+    <MESSAGE value="parse the input to the model" />
+    <option name="LAST_COMMIT_MESSAGE" value="parse the input to the model" />
   </component>
 </project>

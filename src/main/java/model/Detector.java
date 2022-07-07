@@ -1,6 +1,6 @@
-package Model;
+package model;
 
-import Veiw.Communicator;
+import veiw.Communicator;
 import java.util.Scanner;
 
 public class Detector {

@@ -1,6 +1,6 @@
-package Veiw;
+package veiw;
 
-import Controller.InputImpl;
+import controller.InputImpl;
 import java.util.Scanner;
 
 public class Communicator implements Communication{

@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="parse the input to the model">
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="workspace file conflict solve">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetectorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FeatureType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/LinguisticSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/knownSignatures.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/InputImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Detector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +40,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -38,21 +56,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BTfvYVsmf0LqOdsb95NEZ5WAKg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/a40o/Codes/Java/AuthorshipDetection&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/a40o/Codes/Java/AuthorshipDetection",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -68,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -116,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657031373701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="workspace file conflict solve">
+      <created>1657090231520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657090231520</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,12 +160,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Init repo" />
     <MESSAGE value="Add base" />
     <MESSAGE value="Add communication" />
     <MESSAGE value="Add Controller" />
     <MESSAGE value="remove commit errors" />
     <MESSAGE value="parse the input to the model" />
-    <option name="LAST_COMMIT_MESSAGE" value="parse the input to the model" />
+    <MESSAGE value="workspace file conflict solve" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace file conflict solve" />
   </component>
 </project>

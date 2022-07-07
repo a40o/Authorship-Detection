@@ -1,4 +1,4 @@
-package Veiw;
+package veiw;
 
 public interface Communication {
   void startupMessage();

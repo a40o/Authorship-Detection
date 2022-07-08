@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="workspace file conflict solve">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetectorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FeatureType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/LinguisticSignature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/knownSignatures.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/mysteryFiles/mystery5.txt" afterDir="false" />
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="Add example files &amp; example classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/InputImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/InputImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Detector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Detector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/LinguisticSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LinguisticSignature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657090231520</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add example files &amp; example classes">
+      <created>1657189291969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657189291969</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +163,7 @@
     <MESSAGE value="remove commit errors" />
     <MESSAGE value="parse the input to the model" />
     <MESSAGE value="workspace file conflict solve" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace file conflict solve" />
+    <MESSAGE value="Add example files &amp; example classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add example files &amp; example classes" />
   </component>
 </project>

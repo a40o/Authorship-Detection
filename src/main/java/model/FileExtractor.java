@@ -1,28 +1,31 @@
 package model;
 
-import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.util.Scanner;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 public class FileExtractor {
-  public FileExtractor(){
-    //extract
+  public FileExtractor() throws IOException {
+    extract();
   }
 
-  void extract(){
-    try {
-      File myObj = new File("filename.txt");
-      Scanner myReader = new Scanner(myObj);
-      while (myReader.hasNextLine()) {
-        String data = myReader.nextLine();
-        System.out.println(data);
-      }
-      myReader.close();
-    } catch (FileNotFoundException e) {
-      System.out.println("An error occurred.");
-      e.printStackTrace();
+  void extract() throws IOException {
+    String fileName = "/home/a40o/Codes/Java/AuthorshipDetection/src/main/java/resources/mysteryFiles/mystery1.txt";
+
+    try (FileInputStream fis = new FileInputStream(fileName)) {
+
+      int i = 0;
+
+      do {
+
+        int optimalSize = 1024;
+        byte[] buf = new byte[optimalSize];
+        i = fis.read(buf);
+
+        String value = new String(buf, StandardCharsets.UTF_8);
+        System.out.print(value);
+
+      } while (i != -1);
     }
   }
 }

@@ -2,9 +2,10 @@ package model;
 
 import java.io.InputStream;
 
-public class AuthorshipDetectorImpl implements AuthorshipDetector{
-  public AuthorshipDetectorImpl(InputStream signaturesDataset, double[] weights){
-    
+public class AuthorshipDetectorImpl implements AuthorshipDetector {
+
+  public AuthorshipDetectorImpl(InputStream signaturesDataset, double[] weights) {
+
   }
 
   @Override
@@ -21,5 +22,15 @@ public class AuthorshipDetectorImpl implements AuthorshipDetector{
   @Override
   public String findAuthor(InputStream mysteryText) {
     return null;
+  }
+
+  @Override
+  public String cleanUp(String word) {
+    {
+      return word.toLowerCase()
+          .replaceAll(
+              "^[!.,:;\\-?<>#\\*\'\"\\[\\(\\]\\)\\n\\t\\\\]+|[!.,:;\\-?<>#\\*\'\"\\[\\(\\]\\)\\n\\t\\\\]+$",
+              "");
+    }
   }
 }

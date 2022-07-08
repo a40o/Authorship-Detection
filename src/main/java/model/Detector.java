@@ -1,11 +1,11 @@
 package model;
 
+import controller.InputImpl;
+import java.util.Arrays;
 import veiw.Communicator;
-import java.util.Scanner;
 
 public class Detector {
-
-  static Scanner scan = new Scanner(System.in);
+  static InputImpl input = new InputImpl();
   static Communicator communicator = new Communicator();
   public Detector() {
     startApp();
@@ -20,12 +20,7 @@ public class Detector {
     Text[] texts = new  Text[numberOfTexts];
     for (int i = 0; i < texts.length; i++) {
       communicator.getTextInput();
-      texts[i] = new Text();
-    }
-
-    for (Text text : texts) {
-      System.out.println(text.getValue());
-      System.out.println(text.getNumberOfWords());
+      texts[i] = new Text(input.getStringInput());
     }
   }
 }

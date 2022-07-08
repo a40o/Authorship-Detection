@@ -20,7 +20,7 @@ public class Communicator implements Communication{
 
   @Override
   public void getTextInput() {
-    System.out.println("Type text: ");
+    System.out.print("Type text: ");
     input.getStringInput();
   }
 

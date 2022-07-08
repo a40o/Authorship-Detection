@@ -1,5 +1,6 @@
 package model;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Text {
@@ -9,17 +10,12 @@ public class Text {
   int numberOfWords;
   Scanner scanner = new Scanner(System.in);
 
-  public Text() {
-    setValue(scanner.nextLine());
-    //getStrippedText(value);
-    getNumberOfAllWords(value);
+  public Text(String value) {
+    this.value = value;
+    System.out.println(getNumberOfWords(value));
+    System.out.println(Arrays.toString(splitText(value)));
   }
 
-  public static String[] getStrippedText(String text) {
-
-    String strippedText = getPunctuationStrippedText(text);
-    return strippedText.split(" ");
-  }
 
   public static String getPunctuationStrippedText(String text) {
 
@@ -30,17 +26,9 @@ public class Text {
     this.averageLengthOfWords = averageLengthOfWords;
   }
 
-  public static int getNumberOfAllWords(String text) {
+  public static int getNumberOfWords(String text) {
 
-    int allWords = 0;
-    String[] words = getStrippedText(text);
-
-    for (int i = 0; i <= words.length; i++) {
-
-      allWords++;
-    }
-
-    return allWords;
+    return (splitText(text).length);
   }
 
   public String getValue() {
@@ -51,12 +39,8 @@ public class Text {
     this.value = value;
   }
 
-  public int getNumberOfWords() {
-
-    return numberOfWords;
-  }
-
-  public void setNumberOfWords(int numberOfWords) {
-    this.numberOfWords = numberOfWords;
+  public static String[] splitText(String text){
+    String[] words = text.split(" ");
+    return words;
   }
 }

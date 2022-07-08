@@ -13,7 +13,7 @@ public class Paragraph {
   public Paragraph(String value) {
     this.value = value;
     System.out.println(getNumberOfWords(value));
-    System.out.println(Arrays.toString(splitText(value)));
+    System.out.println(Arrays.toString(splitTextByWord(value)));
   }
 
 
@@ -28,7 +28,12 @@ public class Paragraph {
 
   public static int getNumberOfWords(String text) {
 
-    return (splitText(text).length);
+    return (splitTextByWord(text).length);
+  }
+
+  public static int getNumberOfParagraphs(String text) {
+
+    return (splitTextByParagraphs(text).length);
   }
 
   public String getValue() {
@@ -39,8 +44,13 @@ public class Paragraph {
     this.value = value;
   }
 
-  public static String[] splitText(String text){
+  public static String[] splitTextByWord(String text){
     String[] words = text.split(" ");
     return words;
+  }
+
+  public static String[] splitTextByParagraphs(String text){
+    String[] paragraphs = text.split("\n");
+    return paragraphs;
   }
 }

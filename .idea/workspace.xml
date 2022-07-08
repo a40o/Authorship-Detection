@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="example methods">
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="read file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Detector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Paragraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Paragraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657266367085</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="read file">
+      <created>1657270974856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657270974856</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +176,7 @@
     <MESSAGE value="workspace file conflict solve" />
     <MESSAGE value="Add example files &amp; example classes" />
     <MESSAGE value="example methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="example methods" />
+    <MESSAGE value="read file" />
+    <option name="LAST_COMMIT_MESSAGE" value="read file" />
   </component>
 </project>

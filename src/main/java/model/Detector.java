@@ -7,20 +7,12 @@ import veiw.Communicator;
 public class Detector {
   static InputImpl input = new InputImpl();
   static Communicator communicator = new Communicator();
-  static FileExtractor fileExtractor;
-
-  static {
-    try {
-      fileExtractor = new FileExtractor();
-    } catch (IOException e) {
-      throw new RuntimeException(e);
-    }
-  }
+  static FileExtractor fileExtractor = new FileExtractor();
 
   public Detector() {
     startApp();
-    fileExtractor.extract();
-    //communicator.getFilePath();
+    System.out.println(Paragraph.getNumberOfParagraphs(fileExtractor.extract()));
+
   }
 
   public static void startApp() {

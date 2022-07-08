@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="Add example files &amp; example classes">
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="example methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Detector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/LinguisticSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LinguisticSignature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Paragraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/a40o/Codes/Java/AuthorshipDetection",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/a40o/Codes/Java/AuthorshipDetection&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657189291969</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="example methods">
+      <created>1657266367085</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657266367085</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +170,7 @@
     <MESSAGE value="parse the input to the model" />
     <MESSAGE value="workspace file conflict solve" />
     <MESSAGE value="Add example files &amp; example classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add example files &amp; example classes" />
+    <MESSAGE value="example methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="example methods" />
   </component>
 </project>

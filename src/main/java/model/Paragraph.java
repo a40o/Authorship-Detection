@@ -3,14 +3,14 @@ package model;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Text {
+public class Paragraph {
 
   String value;
   String averageLengthOfWords;
   int numberOfWords;
   Scanner scanner = new Scanner(System.in);
 
-  public Text(String value) {
+  public Paragraph(String value) {
     this.value = value;
     System.out.println(getNumberOfWords(value));
     System.out.println(Arrays.toString(splitText(value)));

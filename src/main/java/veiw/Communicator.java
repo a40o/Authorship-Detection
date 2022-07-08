@@ -13,15 +13,9 @@ public class Communicator implements Communication{
   }
 
   @Override
-  public int getAmountOfTexts() {
-    System.out.print("Please type number of texts: ");
-    return input.getNumInput();
-  }
-
-  @Override
-  public void getTextInput() {
-    System.out.print("Type text: ");
-    input.getStringInput();
+  public String getFilePath() {
+    System.out.print("File Path: ");
+    return input.getStringInput();
   }
 
   @Override

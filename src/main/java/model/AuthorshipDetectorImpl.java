@@ -35,8 +35,8 @@ public class AuthorshipDetectorImpl implements AuthorshipDetector {
   static void printNumberOfUniqueWords(String str)
   {
     // Maintaining a count variable
-    int count;
-
+    int count = 0;
+    int wordCount = 0;
     // Extract words from string
     // using split() method
     String[] words = str.split("\\W");
@@ -60,11 +60,14 @@ public class AuthorshipDetectorImpl implements AuthorshipDetector {
       }
 
       // If count of current word is one print it
-      if (count == 1 && words[i] != "")
+      if (count == 1 && words[i] != "") {
 
         // Print statement
         System.out.println(words[i]);
+        wordCount++;
+      }
     }
+    System.out.println(wordCount);
   }
   @Override
   public double calculateSimilarity(LinguisticSignature firstSignature,

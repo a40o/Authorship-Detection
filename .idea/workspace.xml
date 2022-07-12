@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="add feature class">
+    <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="calculate unique words count">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetectorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetectorImpl.java" afterDir="false" />
@@ -164,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657607550738</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="unique words method">
+      <created>1657616212550</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657616212550</updated>
+    </task>
+    <task id="LOCAL-00013" summary="calculate unique words count">
+      <created>1657622192426</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657622192426</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +206,8 @@
     <MESSAGE value="read file" />
     <MESSAGE value="spit text" />
     <MESSAGE value="add feature class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add feature class" />
+    <MESSAGE value="unique words method" />
+    <MESSAGE value="calculate unique words count" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculate unique words count" />
   </component>
 </project>

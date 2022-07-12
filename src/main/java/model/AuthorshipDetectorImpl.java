@@ -24,11 +24,10 @@ public class AuthorshipDetectorImpl implements AuthorshipDetector {
   }
 
   public int averageSentenceLength(String text){
-    //[\\p{L}\\p{M}\\p{N}]+(?:\\p{P}[\\p{L}\\p{M}\\p{N}]+)*|[\\p{P}\\p{S}]
-    String[] sentences = text.split("\\.!?");
+    String[] sentences = text.split("[\\\\p{L}\\\\p{M}\\\\p{N}]+(?:\\\\[\\\\p{L}\\\\p{M}\\\\p{N}]+)*|[\\\\p{P}\\\\p{S}]");
     String[] words = text.split(" ");
     System.out.println(Arrays.toString(sentences));
-
+    System.out.println(Arrays.toString(sentences));
     return words.length / sentences.length;
   }
 

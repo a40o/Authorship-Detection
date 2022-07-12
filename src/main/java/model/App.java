@@ -15,7 +15,9 @@ public class App {
     //System.out.println(Paragraph.getNumberOfWords(
     //    String.valueOf(fileExtractor.extract())));
     //authorshipDetector.averageSentenceLength(fileExtractor.extract());
-     AuthorshipDetectorImpl.printNumberOfUniqueWords("Dog Dogo dog dog tea as de da znam");
+    //System.out.println(authorshipDetector.cleanUp(fileExtractor.extract()));
+    System.out.println(authorshipDetector.averageSentenceLength(fileExtractor.extract()));
+//  AuthorshipDetectorImpl.printNumberOfUniqueWords(authorshipDetector.cleanUp(fileExtractor.extract()));
     //AuthorshipDetectorImpl authorshipDetector = new AuthorshipDetectorImpl();
     //give input stream & weights array ^^^
   }

@@ -9,11 +9,13 @@ public class App {
   static InputImpl input = new InputImpl();
   static Communicator communicator = new Communicator();
   static FileExtractor fileExtractor = new FileExtractor();
-
+  static AuthorshipDetectorImpl authorshipDetector = new AuthorshipDetectorImpl();
   public App() {
     startApp();
-    System.out.println(Paragraph.getNumberOfWords(
-        String.valueOf(fileExtractor.extract())));
+    //System.out.println(Paragraph.getNumberOfWords(
+    //    String.valueOf(fileExtractor.extract())));
+    //authorshipDetector.averageSentenceLength(fileExtractor.extract());
+     AuthorshipDetectorImpl.printNumberOfUniqueWords("Dog Dogo dog dog tea as de da znam");
     //AuthorshipDetectorImpl authorshipDetector = new AuthorshipDetectorImpl();
     //give input stream & weights array ^^^
   }

@@ -1,6 +1,7 @@
 package model;
 
 import java.io.InputStream;
+import java.util.Arrays;
 
 public class AuthorshipDetectorImpl implements AuthorshipDetector {
   static FileExtractor fileExtractor = new FileExtractor();
@@ -9,22 +10,62 @@ public class AuthorshipDetectorImpl implements AuthorshipDetector {
 
   }
 
+  public AuthorshipDetectorImpl() {
+
+  }
+
   @Override
   public LinguisticSignature calculateSignature(InputStream mysteryText) {
     Feature feature = new Feature();
 
-    feature.setValue(5.4);
-    feature.setFeatureType(FeatureType.AVERAGE_SENTENCE_COMPLEXITY);
     //path might not work
     averageSentenceLength(fileExtractor.extract());
     return null;
   }
 
   public int averageSentenceLength(String text){
+    //[\\p{L}\\p{M}\\p{N}]+(?:\\p{P}[\\p{L}\\p{M}\\p{N}]+)*|[\\p{P}\\p{S}]
+    String[] sentences = text.split("\\.!?");
+    String[] words = text.split(" ");
+    System.out.println(Arrays.toString(sentences));
 
-    return 0;
+    return words.length / sentences.length;
   }
 
+  static void printNumberOfUniqueWords(String str)
+  {
+    // Maintaining a count variable
+    int count;
+
+    // Extract words from string
+    // using split() method
+    String[] words = str.split("\\W");
+    System.out.println(words.length);
+
+    // Iterating over the words array
+    for (int i = 0; i < words.length; i++) {
+
+      // Setting count of current word to one
+      count = 1;
+
+      for (int j = i + 1; j < words.length; j++) {
+        if (words[i].equalsIgnoreCase(words[j])) {
+
+          // If word found later in array
+          // increment the count variable
+          count++;
+
+          words[j] = "";
+        }
+      }
+
+      // If count of current word is one print it
+      if (count == 1 && words[i] != "")
+
+        // Print statement
+        System.out.println(words[i]);
+    }
+  }
   @Override
   public double calculateSimilarity(LinguisticSignature firstSignature,
       LinguisticSignature secondSignature) {

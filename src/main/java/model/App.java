@@ -4,15 +4,18 @@ import controller.InputImpl;
 import java.io.IOException;
 import veiw.Communicator;
 
-public class Detector {
+public class App {
+
   static InputImpl input = new InputImpl();
   static Communicator communicator = new Communicator();
   static FileExtractor fileExtractor = new FileExtractor();
 
-  public Detector() {
+  public App() {
     startApp();
-    System.out.println(Paragraph.getNumberOfParagraphs(fileExtractor.extract()));
-
+    System.out.println(Paragraph.getNumberOfWords(
+        String.valueOf(fileExtractor.extract())));
+    //AuthorshipDetectorImpl authorshipDetector = new AuthorshipDetectorImpl();
+    //give input stream & weights array ^^^
   }
 
   public static void startApp() {
@@ -28,7 +31,7 @@ public class Detector {
 //  }
 
   public static void returnParagraphsFromFile() throws IOException {
-   // FileExtractor fileExtractor = new FileExtractor();
+    // FileExtractor fileExtractor = new FileExtractor();
 
   }
 }

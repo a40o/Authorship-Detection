@@ -9,11 +9,12 @@ public class Paragraph {
   String averageLengthOfWords;
   int numberOfWords;
   Scanner scanner = new Scanner(System.in);
+  private static final String PARAGRAPH_SPLIT_REGEX = "(?m)(?=^\\s{0})";
 
   public Paragraph(String value) {
     this.value = value;
-    System.out.println(getNumberOfWords(value));
-    System.out.println(Arrays.toString(splitTextByWord(value)));
+    //System.out.println(getNumberOfWords(value));
+    //System.out.println(Arrays.toString(splitTextByWord(value)));
   }
 
 
@@ -49,8 +50,11 @@ public class Paragraph {
     return words;
   }
 
-  public static String[] splitTextByParagraphs(String text){
-    String[] paragraphs = text.split("\n");
+  public static String[] splitTextByParagraphs(String text) {
+    String[] paragraphs = text.split(PARAGRAPH_SPLIT_REGEX);
+//    for (String paragraph : paragraphs) {
+//      System.out.println("Paragraph: " + paragraph.trim());
+//    }
     return paragraphs;
   }
 }

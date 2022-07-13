@@ -19,6 +19,11 @@ public class Communicator implements Communication{
   }
 
   @Override
+  public void errorMessage() {
+    System.out.println("Error");
+  }
+
+  @Override
   public void outputResults() {
     System.out.println("Here are the results: ");
     //TODO add table for results

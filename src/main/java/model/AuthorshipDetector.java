@@ -8,7 +8,6 @@ public interface AuthorshipDetector {
 
   double calculateSimilarity(LinguisticSignature firstSignature,
       LinguisticSignature secondSignature);
-
   String findAuthor(InputStream mysteryText);
 
   String cleanUp(String word);

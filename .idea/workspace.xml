@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4db2f3-83af-4ae1-8603-1f8d9e5112c7" name="Changes" comment="calculate unique words count">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ExampleAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_7_22,_9_47_am_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetectorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/AuthorshipDetectorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/FileExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/veiw/Communicator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
